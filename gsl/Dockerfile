@@ -6,3 +6,6 @@ RUN apt-get update && \
    libgsl0-dbg \
    libgsl0-dev
 
+RUN apt-get update && \
+   apt-get install -y gdb
+
